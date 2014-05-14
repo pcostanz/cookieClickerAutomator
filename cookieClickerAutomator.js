@@ -36,7 +36,9 @@ var init = setTimeout(function() {
         // haven't played long enough to know
         var options = 12;
 
-        for (var i = options - 1; i >= 0; i--) {
+        // We want to go through high to low to make sure
+        // we buy the more expensive upgrades first
+        for (var i = options; i >= 0; i--) {
             var itemPrice = jQuery('#productPrice' + i);
             var itemQuantity = jQuery('#productOwned' + i);
 
