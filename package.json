@@ -1,0 +1,19 @@
+{
+  "name": "cookieclickerautomator",
+  "version": "1.0.0",
+  "description": "1. Go to http://orteil.dashnet.org/cookieclicker/ 2. Paste the contents of cookieClickerAutomator.js into your JavaScript console 3. Win?",
+  "main": "cookieClickerAutomator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcostanz/cookieClickerAutomator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcostanz/cookieClickerAutomator/issues"
+  },
+  "homepage": "https://github.com/pcostanz/cookieClickerAutomator#readme"
+}
